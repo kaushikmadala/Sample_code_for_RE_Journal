@@ -1,0 +1,9312 @@
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Login NN O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+This DT O
+use NN O
+case NN O
+starts VBZ O
+when WRB O
+the DT O
+actor NN A
+wishes VBZ TC
+to TO O
+Login NN TC
+to TO O
+the DT O
+ambulance NN O
+dispatch VBP O
+system NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+that IN O
+the DT O
+user NN A
+enter VB O
+his/her JJ O
+name NN O
+and CC O
+password NN O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+enters VBZ TC
+his/her JJ O
+name NN O
+and CC O
+password NN O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+validates VBZ S
+the DT O
+entered VBN O
+name NN O
+and CC O
+password NN O
+and CC O
+logs NNS S
+the DT O
+user NN A
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+Alternative NNP O
+Flow NN O
+Invalid JJ O
+UserID NN O
+/ : O
+Password NNP O
+If IN O
+in IN O
+the DT O
+Basic JJ O
+Flow NN O
+, , O
+the DT O
+user NN A
+enters VBZ TC
+an DT O
+invalid JJ O
+userid NN O
+and/or CC O
+password NN O
+, , O
+the DT O
+system NN C
+displays VBZ S
+an DT O
+error NN O
+message NN O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+can MD O
+choose VB O
+to TO O
+either CC O
+return NN TC
+to TO O
+the DT O
+beginning NN O
+of IN O
+the DT O
+Basic JJ O
+Flow NN O
+or CC O
+cancel VB TC
+the DT O
+login NN O
+, , O
+at IN O
+which WDT O
+point VBP O
+the DT O
+use NN O
+case NN O
+ends VBZ O
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+None NNP O
+Post-Conditions NNPS O
+If IN O
+the DT O
+use NN O
+case NN O
+was VBD TC
+successful JJ O
+, , O
+the DT O
+user NN A
+is VBZ O
+now RB O
+logged VBN O
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+If IN O
+not RB TC
+, , O
+the DT O
+system NN C
+state NN O
+is VBZ O
+unchanged JJ S
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Create VB O
+Incident NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NNP A
+receives VBZ TC
+the DT O
+details NNS C
+from IN O
+the DT O
+caller NN A
+and CC O
+enters VBZ TC
+the DT O
+details NNS C
+into IN O
+the DT O
+system NN O
+forms NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+address NN C
+of IN O
+the DT O
+caller NN A
+is VBZ O
+determined VBN S
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+details NNS C
+are VBP O
+verified VBN S
+by IN O
+the DT O
+system NN C
+and CC O
+entered VBD S
+into IN O
+the DT O
+database NN C
+. . O
+EOS
+BOS
+Alternative NNP O
+Flow NN O
+If IN O
+there EX O
+are VBP TC
+no DT O
+complete JJ O
+details NNS C
+available JJ O
+then RB O
+the DT O
+system NN C
+still RB O
+accepts VBZ S
+the DT O
+details NNS C
+as IN O
+entered VBN S
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+The DT O
+Dispatcher NN A
+should MD O
+be VB O
+logged VBN TC
+in IN O
+before IN O
+he PRP A
+uses VBZ O
+this DT O
+use NN O
+case NN O
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+caller NN A
+details NNS C
+are VBP O
+captured VBN S
+by IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+Find VB O
+Incident NNP O
+Location NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+Dispatcher NN A
+sends VBZ TC
+the DT O
+caller NN A
+phone NN O
+number NN O
+and CC O
+details NNS C
+to TO O
+the DT O
+external JJ O
+system NN O
+, , O
+AddressLocator NNP A
+. . O
+EOS
+BOS
+AddressLocator NNP A
+determines VBZ TC
+the DT O
+address NN C
+of IN O
+the DT O
+caller NN A
+and CC O
+returns VBZ TC
+the DT O
+address NN C
+to TO O
+dispatcher NN A
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+If IN O
+the DT O
+location NN C
+can MD O
+not RB O
+be VB O
+found VBN TC
+the DT O
+system NN C
+generates VBZ S
+an DT O
+error NN O
+and CC O
+returns VBZ S
+the DT O
+nearby JJ O
+locations NNS O
+. . O
+EOS
+BOS
+Pre-Conditions NNS O
+The DT O
+Dispatcher NN A
+should MD O
+be VB O
+logged VBN TC
+into IN O
+the DT O
+system NN C
+before IN O
+using VBG O
+the DT O
+use NN O
+case NN O
+. . O
+EOS
+BOS
+Post-Conditions NNP O
+The NNP O
+address NN C
+of IN O
+the DT O
+incident NN O
+is VBZ O
+available JJ S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+Locate VB O
+Ambulance NN O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NN A
+tries VBZ TC
+to TO O
+locate VB TC
+ambulance NN C
+in IN O
+a DT O
+specific JJ O
+region NN O
+with IN O
+relevance NN O
+to TO O
+the DT O
+incident NN O
+address NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+incident NN O
+address NN C
+is VBZ O
+analyzed VBN S
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+surrounding JJ O
+area NN A
+is VBZ O
+scanned VBN S
+for IN O
+all DT O
+ambulances NNS C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+All PDT O
+the DT O
+ambulances NNS C
+are VBP O
+scanned VBN S
+for IN O
+availability NN O
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+nearest JJS O
+EOS
+BOS
+3 CD O
+ambulances NNS C
+are VBP O
+available JJ S
+. . O
+EOS
+BOS
+Alternative NNP O
+Flow NN O
+If IN O
+no DT O
+ambulances NNS C
+are VBP TC
+available JJ S
+the DT O
+use NN O
+case NN O
+diverts VBZ S
+the DT O
+details NNS O
+to TO O
+a DT O
+private JJ O
+party NN A
+Pre-Conditions NNS O
+The DT O
+Dispatcher NN A
+must MD O
+be VB O
+logged VBN TC
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+EOS
+BOS
+3 CD O
+nearest JJS O
+available JJ O
+ambulances NNS C
+are VBP O
+located JJ S
+. . O
+EOS
+BOS
+Extension NNP O
+Points NNP O
+The DT O
+use NN O
+case NN O
+extends VBZ O
+to TO O
+use VB O
+case NN O
+Divert VB O
+to TO O
+Private NNP O
+Party NNP A
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Allocate VB O
+Ambulance NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+nearest JJS O
+3 CD O
+ambulances NNS C
+are VBP O
+shown VBN S
+that IN O
+are VBP O
+available JJ S
+by IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NNP A
+scans VBZ TC
+the DT O
+incident NN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NN A
+evaluates VBZ TC
+the DT O
+criticality NN O
+of IN O
+the DT O
+situation NN O
+EOS
+BOS
+4 CD O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NNP A
+allocates VBZ TC
+ambulances NNS C
+to TO O
+that DT O
+location NN O
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+route NN C
+from IN O
+the DT O
+ambulance NN O
+location NN O
+to TO O
+the DT O
+incident NN O
+location NN O
+is VBZ O
+determined VBN S
+using VBG O
+GPS NN O
+system NN C
+. . O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+Allocation NN O
+information NN C
+containing VBG O
+incident NN C
+, , O
+ambulance NN C
+and CC O
+route NN O
+information NN C
+is VBZ O
+generated VBN S
+. . O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+Ambulance NN O
+personnel NNS A
+are VBP O
+notified VBN S
+. . O
+EOS
+BOS
+Alternative NNP O
+Flow NN O
+None NN O
+Special JJ O
+Requirements NNS O
+The DT O
+allocation NN O
+of IN O
+operation NN O
+should MD O
+take VB O
+EOS
+BOS
+3 CD O
+minutes NNS O
+from IN O
+the DT O
+incident NN C
+is VBZ O
+created VBN S
+. . O
+EOS
+BOS
+If IN O
+it PRP O
+takes VBZ TC
+more JJR O
+than IN O
+EOS
+BOS
+3 CD O
+minutes NNS O
+exception NN O
+messages NNS C
+should MD O
+be VB O
+generated VBN S
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+The DT O
+Dispatcher NN A
+and CC O
+the DT O
+Ambulance NNP O
+Personnel NNP A
+should MD O
+be VB O
+logged VBN TC
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+None NN O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+Ambulance NN O
+Tracking VBG O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+Dispatcher NN A
+requests NNS TC
+for IN O
+ambulance NN O
+tracking NN O
+option NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+dispatch VBP O
+system NN C
+generates VBZ S
+the DT O
+details NNS O
+of IN O
+each DT O
+and CC O
+every DT O
+ambulance NN C
+in IN O
+the DT O
+region NN O
+, , O
+by IN O
+interacting VBG O
+with IN O
+GPS NN O
+system NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+location NN O
+and CC O
+the DT O
+availability NN O
+of IN O
+these DT O
+ambulances NNS C
+are VBP O
+listed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+status NN O
+of IN O
+ambulances NNS C
+can MD O
+be VB O
+changed VBN TC
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+The DT O
+Dispatcher NN A
+should MD O
+be VB O
+logged VBN TC
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+Tracking VBG O
+information NN C
+is VBZ O
+updated VBN S
+. . O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+Get VB O
+Reports NNS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+supervisor NN A
+enters VBZ TC
+the DT O
+period NN O
+start NN O
+and CC O
+end NN O
+dates NNS O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+report NN C
+is VBZ O
+generated VBN S
+from IN O
+the DT O
+database NN C
+. . O
+EOS
+BOS
+Alternative NNP O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+The DT O
+supervisor NN A
+should MD O
+be VB O
+logged VBN TC
+into IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+report NN C
+is VBZ O
+generated VBN S
+. . O
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+Geographical JJ O
+analysis NN O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+geographical JJ O
+coordinates VBZ C
+of IN O
+a DT O
+specific JJ O
+location NN O
+are VBP O
+returned VBN S
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+driving VBG O
+directions NNS C
+to TO O
+a DT O
+place NN O
+are VBP O
+obtained VBN S
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNP O
+None NNP O
+Post-Conditions NNP O
+The NNP O
+geographic JJ O
+details NNS C
+and CC O
+the DT O
+directions NNS C
+are VBP O
+obtained VBN S
+. . O
+EOS
+BOS
+9 CD O
+. . O
+EOS
+BOS
+Manage VB O
+Users NNS O
+Flow NN O
+of IN O
+Events NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+Supervisor NN A
+log NN TC
+in IN O
+to TO O
+the DT O
+system NN C
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Supervisor NN A
+selects VBZ TC
+either CC O
+add/remove NN O
+or CC O
+update VB O
+option NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+Supervisor NN A
+provides VBZ TC
+Use NNP O
+case NN O
+name NN O
+: : O
+EOS
+BOS
+Move VB O
+to TO O
+Station NNP O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+The DT O
+Supervisory NNP O
+System NNP A
+sends VBZ TC
+a DT O
+message NN O
+to TO O
+the DT O
+AGV NN O
+system NN C
+requesting VBG O
+it PRP O
+to TO O
+move VB O
+to TO O
+a DT O
+factory NN O
+station NN A
+and CC O
+load NN O
+a DT O
+part NN A
+. . O
+EOS
+BOS
+2 CD O
+The DT O
+AGV NNP O
+System NNP C
+commands VBZ S
+the DT O
+motor NN C
+to TO O
+start VB O
+moving VBG S
+. . O
+EOS
+BOS
+3 CD O
+The DT O
+motor NN C
+notifies VBZ S
+the DT O
+AGV NNP O
+System NNP C
+that IN O
+the DT O
+vehicle NN C
+has VBZ O
+started VBN O
+moving VBG S
+. . O
+EOS
+BOS
+4 LS O
+The DT O
+AGV NNP O
+System NNP C
+sends VBZ S
+a DT O
+Departed JJ O
+message NN O
+to TO O
+the DT O
+Supervisory NNP O
+System NNP A
+. . O
+EOS
+BOS
+5 CD O
+The DT O
+arrival NN O
+sensor NN C
+notifies VBZ S
+the DT O
+AGV NNP O
+System NNP C
+that IN O
+it PRP O
+has VBZ O
+arrived VBN TC
+at IN O
+factory NN O
+station NN A
+. . O
+EOS
+BOS
+6 CD O
+The DT O
+AGV NNP O
+System NNP C
+determines VBZ S
+that IN O
+this DT O
+station NN A
+is VBZ TC
+the DT O
+destination NN O
+station NN A
+and CC O
+commands VBZ S
+the DT O
+motor NN C
+to TO O
+stop VB O
+moving VBG S
+. . O
+EOS
+BOS
+7 CD O
+The DT O
+motor NN C
+notifies VBZ S
+the DT O
+AGV NNP O
+System NNP C
+that IN O
+the DT O
+vehicle NN C
+has VBZ O
+stopped VBN O
+moving VBG S
+. . O
+EOS
+BOS
+8 CD O
+The DT O
+AGV NNP O
+System NNP C
+commands VBZ S
+the DT O
+robot NN O
+arm NN C
+to TO O
+load VB S
+the DT O
+part NN A
+. . O
+EOS
+BOS
+9 CD O
+The DT O
+arm NN C
+notifies VBZ S
+the DT O
+AGV NNP O
+System NNP C
+that IN O
+the DT O
+part NN A
+has VBZ O
+been VBN O
+loaded VBN TC
+. . O
+EOS
+BOS
+10 CD O
+The DT O
+AGV NNP O
+System NNP C
+sends VBZ S
+an DT O
+Arrived VBN O
+message NN O
+to TO O
+the DT O
+Supervisory NNP O
+System NNP A
+. . O
+EOS
+BOS
+Alternative JJ O
+sequences NNS O
+: : O
+EOS
+BOS
+1 CD O
+Step NN O
+EOS
+BOS
+6 CD O
+: : O
+EOS
+BOS
+If IN O
+the DT O
+vehicle NN C
+arrives VBZ TC
+at IN O
+a DT O
+different JJ O
+station NN A
+from IN O
+the DT O
+destination NN O
+station NN A
+, , O
+the DT O
+vehicle NN C
+passes VBZ S
+the DT O
+station NN A
+without IN O
+stopping VBG O
+and CC O
+sends VBZ S
+a DT O
+Passed VBN O
+factory NN O
+station NN A
+without IN O
+stopping VBG O
+message NN O
+to TO O
+the DT O
+Supervisory NNP O
+System NNP A
+. . O
+EOS
+BOS
+2 CD O
+Steps NNS O
+EOS
+BOS
+8 CD O
+and CC O
+EOS
+BOS
+9 CD O
+: : O
+EOS
+BOS
+If IN O
+the DT O
+Supervisory NNP O
+System NNP A
+requests NNS TC
+the DT O
+AGV NN C
+to TO O
+move VB O
+to TO O
+a DT O
+factory NN O
+station NN A
+and CC O
+unload VB O
+a DT O
+part NN O
+, , O
+the DT O
+AGV NNP C
+will MD O
+unload VB S
+the DT O
+part NN O
+after IN O
+it PRP O
+arrives VBZ TC
+at IN O
+the DT O
+destination NN O
+station NN A
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+name NN O
+: : O
+EOS
+BOS
+Send VB O
+Vehicle NNP O
+Status NNP O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+Clock NN C
+notifies VBZ S
+AGV NNP O
+System NNP C
+that IN O
+the DT O
+timer NN C
+has VBZ O
+expired VBN S
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+View NNP O
+Monitoring VBG O
+Data NNS O
+Precondition NNP O
+: : O
+EOS
+BOS
+The DT O
+monitoring NN O
+operator NN A
+is VBZ O
+logged VBN TC
+in IN O
+. . O
+EOS
+BOS
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+monitoring NN O
+operator NN A
+requests NNS TC
+to TO O
+view VB O
+the DT O
+status NN O
+of IN O
+a DT O
+monitoring NN O
+location NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+monitoring NN O
+status NN C
+as IN O
+follows VBZ O
+: : O
+EOS
+BOS
+Sensor NN O
+status NN O
+for IN O
+each DT O
+sensor NN C
+( NN O
+value NN O
+, , O
+upper JJ O
+limit NN O
+, , O
+lower JJR O
+limit NN O
+, , O
+alarm NN O
+status NN O
+) NN O
+. . O
+EOS
+BOS
+Alternative JJ O
+sequence NN O
+: : O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+2 CD O
+: : O
+EOS
+BOS
+Emergency NN O
+situation NN TC
+. . O
+EOS
+BOS
+System NNP C
+displays VBZ S
+emergency NN O
+warning NN O
+message NN O
+to TO O
+operator NN A
+. . O
+EOS
+BOS
+Postcondition NN O
+: : O
+EOS
+BOS
+Monitoring VBG O
+status NN C
+has VBZ O
+been VBN O
+displayed VBN S
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+View NNP O
+Alarms NNP O
+Precondition NNP O
+: : O
+EOS
+BOS
+The DT O
+monitoring NN O
+operator NN A
+is VBZ O
+logged VBN TC
+in IN O
+. . O
+EOS
+BOS
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+monitoring NN O
+operator NN A
+requests NNS TC
+to TO O
+view VB O
+the DT O
+outstanding JJ O
+alarms NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+outstanding JJ O
+alarms NNS C
+. . O
+EOS
+BOS
+For IN O
+each DT O
+alarm NN C
+, , O
+the DT O
+system NN C
+displays VBZ S
+the DT O
+name NN O
+of IN O
+the DT O
+alarm NN O
+, , O
+alarm NN O
+description NN O
+, , O
+location NN O
+of IN O
+alarm NN O
+, , O
+and CC O
+severity NN O
+of IN O
+alarm NN O
+( CD O
+high JJ O
+, , O
+medium NN O
+, , O
+low JJ O
+) NN O
+. . O
+EOS
+BOS
+Alternative JJ O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+2 CD O
+: : O
+EOS
+BOS
+Emergency NN O
+situation NN TC
+. . O
+EOS
+BOS
+System NNP C
+displays VBZ S
+emergency NN O
+warning NN O
+message NN O
+to TO O
+operator NN A
+. . O
+EOS
+BOS
+Postcondition NN O
+: : O
+EOS
+BOS
+Outstanding JJ O
+alarms NNS C
+have VBP O
+been VBN O
+displayed VBN S
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+Generate VB O
+Monitoring NN O
+Data NNS O
+Precondition NN O
+: : O
+EOS
+BOS
+The DT O
+remote JJ O
+system NN C
+is VBZ TC
+operational JJ S
+. . O
+EOS
+BOS
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+Remote NNP O
+Sensor NNP C
+sends VBZ S
+new JJ O
+monitoring NN O
+data NNS O
+to TO O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+updates NNS S
+the DT O
+monitoring NN O
+status NN C
+as IN O
+follows VBZ O
+: : O
+EOS
+BOS
+Sensor NN O
+status NN O
+for IN O
+each DT O
+sensor NN C
+( NN O
+value NN O
+, , O
+upper JJ O
+limit NN O
+, , O
+lower JJR O
+limit NN O
+, , O
+alarm NN O
+status NN O
+) NN O
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+sends VBZ S
+new JJ O
+monitoring NN O
+status NN C
+to TO O
+monitoring VBG O
+operators NNS A
+who WP O
+have VBP O
+subscribed VBN TC
+to TO O
+receive VB O
+status NN O
+updates NNS O
+. . O
+EOS
+BOS
+Alternative JJ O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+2 CD O
+: : O
+EOS
+BOS
+Emergency NN O
+situation NN TC
+. . O
+EOS
+BOS
+System NNP C
+displays VBZ S
+emergency NN O
+warning NN O
+message NN O
+to TO O
+operator NN A
+. . O
+EOS
+BOS
+Postcondition NN O
+: : O
+EOS
+BOS
+Monitoring VBG O
+status NN C
+has VBZ O
+been VBN O
+updated VBN S
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+Generate VB O
+Alarm NNP O
+Precondition NNP O
+: : O
+EOS
+BOS
+The DT O
+external JJ O
+sensor NN C
+is VBZ TC
+operational JJ S
+. . O
+EOS
+BOS
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+Remote NNP O
+Sensor NNP C
+sends VBZ S
+an DT O
+alarm NN C
+to TO O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+updates NNS S
+the DT O
+alarm NN O
+data NNS C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+stores NNS S
+the DT O
+name NN O
+of IN O
+the DT O
+alarm NN O
+, , O
+alarm NN O
+description NN O
+, , O
+location NN O
+of IN O
+alarm NN O
+, , O
+and CC O
+severity NN O
+of IN O
+alarm NN O
+( CD O
+high JJ O
+, , O
+medium NN O
+, , O
+low JJ O
+) NN O
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+sends VBZ S
+the DT O
+new JJ O
+alarm NN O
+data NNS C
+to TO O
+monitoring VBG O
+operators NNS A
+who WP O
+have VBP O
+subscribed VBN TC
+to TO O
+receive VB O
+alarm NN O
+updates NNS O
+. . O
+EOS
+BOS
+Alternative JJ O
+1101 CD O
+: : O
+EOS
+BOS
+Create VB O
+Community NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+selects VBZ TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+extension NN O
+point NN O
+: : O
+EOS
+BOS
+existing VBG O
+Community NNP O
+Profile NNP O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1101_1 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+CareGiver NNP O
+Information NNP O
+) NNP O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1101_2 CD O
+: : O
+EOS
+BOS
+Fill VB O
+out RP O
+Health NNP O
+Center NNP O
+Information NNP O
+) NNP O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1101_3 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Basic JJ O
+Demographic JJ O
+Information NN O
+) NN O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1101_4 CD O
+: : O
+EOS
+BOS
+Specify NNP O
+Services NNPS O
+) SYM O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+For IN O
+each DT O
+family NN O
+: : O
+EOS
+BOS
+6.1 CD O
+. . O
+EOS
+BOS
+include VBP O
+( CD O
+EOS
+BOS
+1201 CD O
+: : O
+EOS
+BOS
+Create VB O
+Family NNP O
+Profile NNP O
+) NN O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+community NN O
+profile NN O
+information NN C
+to TO O
+the DT O
+caregiver NN A
+. . O
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+caregiver NN A
+to TO O
+accept VB O
+the DT O
+community NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+9 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+accepts VBZ TC
+the DT O
+community NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+10 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+storages VBZ S
+the DT O
+community NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+first JJ O
+alternative NN O
+flow NN O
+begins VBZ O
+at IN O
+any DT O
+time NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+cancels VBZ TC
+profile NN C
+creation NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+second JJ O
+alternative NN O
+flow NN O
+begins VBZ O
+after IN O
+step NN O
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+of IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+2.1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+rejects VBZ TC
+the DT O
+community NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+2.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+allows VBZ S
+the DT O
+caregiver NN A
+to TO O
+edit VB O
+the DT O
+wrong JJ O
+information NN C
+. . O
+EOS
+BOS
+2.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+changes VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+Pre-Conditions NNS O
+The DT O
+consumer NN A
+must MD O
+be VB O
+logged VBN TC
+on IN O
+to TO O
+the DT O
+system NN C
+Post-Conditions NNPS O
+A DT O
+community NN O
+profile NN C
+is VBZ O
+created VBN S
+1101_1 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+CareGiver NNP O
+Information NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+personal JJ O
+questions NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+answers NNS TC
+those DT O
+personal JJ O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+caregiver NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+caregiver NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+accepts VBZ TC
+her PRP$ O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" '' O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+caregiver NN A
+creates VBZ TC
+the DT O
+community NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+caregiver NN A
+answered VBN TC
+personal JJ O
+questions NNS C
+1101_2 CD O
+: : O
+EOS
+BOS
+Fill VB O
+Out IN O
+Health NNP O
+Center NNP O
+Information NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+for IN O
+health NN O
+center NN O
+information NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+provides VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+health NN O
+center NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+caregiver NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+accepts VBZ TC
+the DT O
+information NN O
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+caregiver NN A
+creates VBZ TC
+the DT O
+community NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+health NN O
+center NN O
+information NN C
+form NN O
+is VBZ O
+filled VBN O
+out RP O
+1101_3 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Basic JJ O
+Demographic JJ O
+Information NN O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+for IN O
+basic JJ O
+demographic JJ O
+information NN C
+on IN O
+populations NNS O
+served VBD O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+provides VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+demographic JJ O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+caregiver NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+caregiver NN A
+creates VBZ TC
+the DT O
+community NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+basic JJ O
+demographic JJ O
+information NN C
+on IN O
+populations NNS O
+served VBD O
+is VBZ O
+completed VBN S
+. . O
+EOS
+BOS
+1101_4 CD O
+: : O
+EOS
+BOS
+Specify NNP O
+Services NNPS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+for IN O
+communitary JJ O
+center NN O
+services NNS O
+specifications NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+provides VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+communitary JJ O
+center NN O
+services NNS O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+caregiver NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+caregiver NN A
+creates VBZ TC
+the DT O
+community NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+communitary JJ O
+center NN O
+services NNS C
+are VBP O
+specified VBN S
+. . O
+EOS
+BOS
+1101_5 CD O
+: : O
+EOS
+BOS
+Load NN O
+Existing VBG O
+Community NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+selects VBZ TC
+to TO O
+use VB O
+other JJ O
+datahosting VBG O
+service NN O
+provider NN O
+database NN C
+to TO O
+create VB O
+a DT O
+community NN O
+profile NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+to TO O
+enter VB O
+the DT O
+specific JJ O
+database NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+enters VBZ TC
+the DT O
+details NNS O
+of IN O
+her PRP$ O
+previous JJ O
+datahosting JJ O
+service NN O
+provider NN O
+database NN C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+interchanges VBZ S
+the DT O
+information NN O
+between IN O
+DataHosting NNP O
+Service NNP O
+Providers NNP O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+alternative NN O
+flow NN O
+begins VBZ TC
+after IN O
+step NN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+on IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+enters VBZ TC
+an DT O
+invalid JJ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+database NN C
+. . O
+EOS
+BOS
+1.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+caregiver NN A
+to TO O
+enter VB O
+it PRP O
+again RB O
+. . O
+EOS
+BOS
+1.3 CD O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+enters VBZ TC
+the DT O
+correct JJ O
+one CD O
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Community NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+caregiver NN A
+has VBZ O
+changed VBN TC
+her PRP$ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+A DT O
+community NN O
+profile NN C
+is VBZ O
+loaded VBN S
+EOS
+BOS
+1201 CD O
+: : O
+EOS
+BOS
+Create VB O
+Family NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+selects VBZ TC
+" `` O
+Create VB O
+Family NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+extension NN O
+point NN O
+: : O
+EOS
+BOS
+existing VBG O
+Family NNP O
+Profile NNP O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1201_1 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+CMO NNP O
+Information NNP O
+) NNP O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1201_2 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Home NNP O
+Information NNP O
+) NNP O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+For IN O
+each DT O
+family NN O
+member NN O
+: : O
+EOS
+BOS
+3.1 CD O
+. . O
+EOS
+BOS
+include VBP O
+( CD O
+EOS
+BOS
+1101 CD O
+: : O
+EOS
+BOS
+Create VB O
+Individual NNP O
+Profile NNP O
+) NN O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+family NN O
+profile NN O
+information NN C
+to TO O
+the DT O
+CMO NNP A
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+CMO NNP A
+to TO O
+accept VB O
+the DT O
+family NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+accepts VBZ TC
+the DT O
+family NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+storages VBZ S
+the DT O
+family NN O
+profile NN O
+. . O
+EOS
+BOS
+information NN C
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+first JJ O
+alternative NN O
+flow NN O
+begins VBZ O
+at IN O
+any DT O
+time NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NN A
+cancels VBZ TC
+profile NN O
+creation NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+second JJ O
+alternative NN O
+flow NN O
+begins VBZ TC
+after IN O
+step NN O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+of IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+2.1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+rejects VBZ TC
+the DT O
+community NN O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+2.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+allows VBZ S
+the DT O
+CMO NNP A
+to TO O
+edit VB O
+the DT O
+wrong JJ O
+information NN C
+. . O
+EOS
+BOS
+2.3 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NN A
+changes VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+Pre-Conditions NNS O
+The DT O
+consumer NN A
+must MD O
+be VB O
+logged VBN TC
+on IN O
+to TO O
+the DT O
+system NN C
+Post-Conditions NNPS O
+A DT O
+family NN O
+profile NN C
+is VBZ O
+created VBN S
+1201_1 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+CMO NNP O
+Information NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+CMO NNP A
+for IN O
+her PRP$ O
+personal JJ O
+information NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+provides VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+CMO NNP O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+CMO NNP A
+to TO O
+accept VB O
+her PRP$ O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NN A
+accepts VBZ TC
+her PRP$ O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Family NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+CMO NNP A
+creates VBZ TC
+her PRP$ O
+family NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+CMO NNP O
+personal JJ O
+information NN C
+is VBZ O
+completed VBN S
+1201_2 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Home NNP O
+Information NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+CMO NNP A
+for IN O
+few JJ O
+home NN O
+parameters NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+provides VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+home NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+CMO NNP A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NN A
+accepts VBZ TC
+her PRP$ O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Family NNP O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+the DT O
+CMO NNP A
+creates VBZ TC
+her PRP$ O
+family NN O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+The DT O
+home NN O
+information NN C
+is VBZ O
+completed VBN S
+1201_3 CD O
+: : O
+EOS
+BOS
+Load NN O
+Existing VBG O
+Family NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+selects VBZ TC
+to TO O
+use VB O
+other JJ O
+datahosting VBG O
+service NN O
+provider NN O
+database NN C
+to TO O
+create VB O
+a DT O
+family NN O
+profile NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+CMO NNP A
+to TO O
+select VB O
+the DT O
+specific JJ O
+database NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+enters VBZ TC
+the DT O
+details NNS O
+of IN O
+her PRP$ O
+previous JJ O
+datahosting JJ O
+service NN O
+provider NN O
+database NN C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+interchanges VBZ S
+the DT O
+information NN O
+between IN O
+DataHosting NNP O
+Service NNP O
+Providers NNP O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+alternative NN O
+flow NN O
+begins VBZ TC
+after IN O
+step NN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+on IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+enters VBZ TC
+an DT O
+invalid JJ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+database NN C
+. . O
+EOS
+BOS
+1.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+CMO NNP A
+to TO O
+enter VB O
+it PRP O
+again RB O
+. . O
+EOS
+BOS
+1.3 CD O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+enters VBZ TC
+the DT O
+correct JJ O
+one CD O
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Family NNP O
+Profile NNP O
+" '' O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+CMO NNP A
+has VBZ O
+changed VBN TC
+her PRP$ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+A DT O
+family NN O
+profile NN C
+is VBZ O
+loaded VBN S
+EOS
+BOS
+1301 CD O
+: : O
+EOS
+BOS
+Create VB O
+Individual NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+selects VBZ TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+extension NN O
+point NN O
+: : O
+EOS
+BOS
+existing VBG O
+Individual JJ O
+Profile NNP O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_1 CD O
+: : O
+EOS
+BOS
+Answer VB O
+Personal NNP O
+Questions NNPS O
+) SYM O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_2 CD O
+: : O
+EOS
+BOS
+Generate VB O
+Nutritional NNP O
+Profile NNP O
+) NN O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_3 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Activity NN O
+Habits NNS O
+) VBP O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_4 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Previous JJ O
+Condition NN O
+Information NN O
+) NN O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_5 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Family NNP O
+Parameters NNPS O
+) SYM O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_6 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Environmental JJ O
+Parameters NNS O
+) VBP O
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+include VBP O
+( NN O
+1301_7 CD O
+: : O
+EOS
+BOS
+Assign VB O
+Permissions NNP O
+) CD O
+EOS
+BOS
+9 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+individual JJ O
+profile NN O
+information NN C
+to TO O
+the DT O
+consumer NN A
+. . O
+EOS
+BOS
+10 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+the DT O
+individual JJ O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+11 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+the DT O
+individual JJ O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+12 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+storages VBZ S
+the DT O
+individual JJ O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+first JJ O
+alternative NN O
+flow NN O
+begins VBZ O
+at IN O
+any DT O
+time NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+cancels VBZ TC
+profile NN O
+creation NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+second JJ O
+alternative NN O
+flow NN O
+begins VBZ TC
+after IN O
+step NN O
+EOS
+BOS
+10 CD O
+. . O
+EOS
+BOS
+of IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+2.1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+rejects VBZ TC
+her PRP$ O
+profile NN O
+information NN C
+. . O
+EOS
+BOS
+2.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+allows VBZ S
+the DT O
+consumer NN A
+to TO O
+edit VB O
+the DT O
+wrong JJ O
+information NN C
+. . O
+EOS
+BOS
+2.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+changes VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+Pre-Conditions NNS O
+The DT O
+consumer NN A
+must MD O
+be VB O
+logged VBN TC
+on IN O
+to TO O
+the DT O
+system NN C
+Post-Conditions NNP O
+An DT O
+individual JJ O
+profile NN C
+is VBZ O
+created VBN S
+1301_10 CD O
+: : O
+EOS
+BOS
+Load NN O
+Existing VBG O
+Individual JJ O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+selects VBZ TC
+to TO O
+use VB O
+other JJ O
+datahosting VBG O
+service NN O
+provider NN O
+database NN C
+to TO O
+create VB O
+an DT O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+to TO O
+select VB O
+the DT O
+specific JJ O
+database NN C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+enters VBZ TC
+the DT O
+details NNS O
+of IN O
+her PRP$ O
+previous JJ O
+datahosting JJ O
+service NN O
+provider NN O
+database NN C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+interchanges VBZ S
+the DT O
+information NN O
+between IN O
+DataHosting NNP O
+Service NNP O
+Providers NNP O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+alternative NN O
+flow NN O
+begins VBZ TC
+after IN O
+step NN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+on IN O
+the DT O
+basic JJ O
+flow NN O
+. . O
+EOS
+BOS
+1.1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+enters VBZ TC
+an DT O
+invalid JJ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+database NN C
+. . O
+EOS
+BOS
+1.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+to TO O
+enter VB O
+it PRP O
+again RB O
+. . O
+EOS
+BOS
+1.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+enters VBZ TC
+the DT O
+correct JJ O
+one CD O
+. . O
+EOS
+BOS
+Pre-Conditions NNPS O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" '' O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+changed VBN TC
+her PRP$ O
+DataHosting NNP O
+Service NNP O
+Provider NNP O
+. . O
+EOS
+BOS
+Post-Conditions NNPS O
+An DT O
+individual JJ O
+profile NN C
+is VBZ O
+loaded VBN S
+. . O
+EOS
+BOS
+Extension NNP O
+Points NNP O
+None NN O
+1301_1 CD O
+: : O
+EOS
+BOS
+Answer NNP O
+Personal NNP O
+Questions NNPS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+personal JJ O
+questions NNS C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+personal JJ O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN A
+personal JJ O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+her PRP$ O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNP O
+The NNP O
+consumer NN A
+answered VBN TC
+personal JJ O
+questions NNS C
+1301_2 CD O
+: : O
+EOS
+BOS
+Generate VB O
+Nutritional NNP O
+Profile NNP O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+questions NNS C
+about IN O
+her PRP$ O
+physical JJ O
+condition NN O
+as RB O
+well RB O
+as IN O
+nutrition NN O
+habits NNS O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN O
+physical JJ O
+condition NN O
+information NN C
+and CC O
+eating NN O
+habits NNS O
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNP O
+Consumer NNP O
+'s POS O
+nutritional JJ O
+profile NN C
+is VBZ O
+generated VBN S
+1301_3 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Activity NN O
+Habits NNS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+questions NNS C
+about IN O
+her PRP$ O
+activity NN O
+habits NNS O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+: : O
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN O
+activity NN O
+habits NNS O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+that DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNP O
+The NNP O
+consumer NN A
+answered VBN TC
+activity NN O
+habits NNS O
+questions NNS C
+EOS
+BOS
+1301_4 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Previous JJ O
+Condition NN O
+Information NN O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+questions NNS C
+about IN O
+her PRP$ O
+previous JJ O
+conditions NNS O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+: : O
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN O
+previous JJ O
+condition NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+that DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNS O
+The DT O
+consumer NN A
+answered VBN TC
+previous JJ O
+condition NN O
+questions NNS C
+1301_5 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Family NNP O
+Parameters NNPS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+questions NNS C
+about IN O
+her PRP$ O
+family NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+: : O
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN O
+family NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+that IN O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+profile NN C
+. . O
+EOS
+BOS
+Post-Conditions NNS O
+The DT O
+consumer NN A
+answered VBN TC
+family NN O
+questions NNS C
+EOS
+BOS
+1301_6 CD O
+: : O
+EOS
+BOS
+Complete JJ O
+Environmental JJ O
+Parameters NNS O
+Flow NN O
+of IN O
+Events NNS O
+Basic JJ O
+Flow NN O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+asks VBZ S
+the DT O
+consumer NN A
+questions NNS C
+about IN O
+her PRP$ O
+environment NN O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+answers NNS TC
+those DT O
+questions NNS C
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+checks NNS S
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+If IN O
+all DT O
+mandatory JJ O
+fields NNS C
+are VBP O
+completed VBN S
+: : O
+EOS
+BOS
+4.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+consumer NN A
+environment NN O
+information NN C
+. . O
+EOS
+BOS
+4.2 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+requests NNS S
+the DT O
+consumer NN A
+to TO O
+accept VB O
+the DT O
+information NN C
+. . O
+EOS
+BOS
+4.3 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+accepts VBZ TC
+the DT O
+information NN C
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+Else RB TC
+EOS
+BOS
+5.1 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+displays VBZ S
+the DT O
+missing VBG O
+fields NNS C
+to TO O
+be VB O
+completed VBN S
+. . O
+EOS
+BOS
+5.2 CD O
+. . O
+EOS
+BOS
+Repeat NN TC
+from IN O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flow NN O
+None NN O
+Pre-Conditions NNS O
+EOS
+BOS
+1 CD O
+. . O
+EOS
+BOS
+The DT O
+consumer NN A
+has VBZ O
+selected VBN TC
+" `` O
+Create VB O
+Individual JJ O
+Profile NNP O
+" `` O
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Is VBZ O
+the DT O
+first JJ O
+time NN O
+consumer NN A
+creates VBZ TC
+her PRP$ O
+individual JJ O
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+Browse NNP O
+Catalog NN O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+Customer NN A
+requests NNS TC
+to TO O
+browse VB O
+catalog NN O
+. . O
+EOS
+BOS
+2 CD O
+System NNP C
+displays VBZ S
+catalog NN O
+information NN O
+to TO O
+customer NN A
+. . O
+EOS
+BOS
+3 CD O
+Customer NN A
+selects VBZ TC
+items NNS C
+from IN O
+catalog NN O
+. . O
+EOS
+BOS
+4 CD O
+System NNP C
+displays VBZ S
+an DT O
+itemized VBN O
+list NN O
+containing VBG O
+each DT O
+item NN O
+description NN O
+and CC O
+price NN O
+, , O
+as RB O
+well RB O
+as IN O
+the DT O
+total JJ O
+price NN O
+. . O
+EOS
+BOS
+Alternative JJ O
+sequence NN O
+: : O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+3 CD O
+: : O
+EOS
+BOS
+Customer NN A
+does VBZ O
+not RB O
+select JJ TC
+item NN C
+and CC O
+exits NNS TC
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+name NN O
+: : O
+EOS
+BOS
+Make NNP O
+Order NNP O
+Request NNP O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+Customer NN A
+provides VBZ TC
+order NN O
+request NN O
+and CC O
+customer NN O
+account VBP O
+Id NN O
+to TO O
+pay VB O
+for IN O
+purchase NN O
+. . O
+EOS
+BOS
+2 CD O
+System NNP C
+retrieves VBZ S
+customer NN O
+account NN O
+information NN O
+, , O
+including VBG O
+the DT O
+customer NN O
+'s POS O
+credit NN O
+card NN O
+details NNS O
+. . O
+EOS
+BOS
+3 CD O
+System NN C
+checks NNS S
+the DT O
+customer NN O
+'s POS O
+credit NN O
+card NN O
+for IN O
+the DT O
+purchase NN O
+amount NN O
+and CC O
+, , O
+if IN O
+approved VBN TC
+, , O
+creates VBZ S
+a DT O
+credit NN O
+card NN O
+purchase NN O
+authorization NN O
+number NN O
+. . O
+EOS
+BOS
+4 CD O
+System NNP C
+creates VBZ S
+a DT O
+delivery NN O
+order NN C
+containing VBG O
+order NN O
+details NNS O
+, , O
+customer NN O
+Id NN O
+, , O
+and CC O
+credit NN O
+card NN O
+authorization NN O
+number NN O
+. . O
+EOS
+BOS
+5 CD O
+System NNP C
+confirms VBZ S
+approval NN O
+of IN O
+purchase NN O
+and CC O
+displays VBZ S
+order NN O
+information NN O
+to TO O
+customer NN A
+. . O
+EOS
+BOS
+Alternative JJ O
+sequences NNS O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+2 CD O
+: : O
+EOS
+BOS
+If IN O
+customer NN A
+does VBZ O
+not RB O
+have VB TC
+an DT O
+account NN O
+, , O
+the DT O
+system NN C
+prompts VBZ S
+the DT O
+customer NN A
+to TO O
+provide VB O
+information NN O
+in IN O
+order NN O
+to TO O
+create VB O
+a DT O
+new JJ O
+account NN O
+. . O
+EOS
+BOS
+The DT O
+customer NN A
+can MD O
+either RB O
+enter VB TC
+the DT O
+account NN O
+information NN O
+or CC O
+cancel VB TC
+the DT O
+order NN C
+. . O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+Step NN O
+EOS
+BOS
+3 CD O
+: : O
+EOS
+BOS
+If IN O
+authorization NN O
+of IN O
+the DT O
+customer NN O
+'s POS O
+credit NN O
+card NN O
+is VBZ O
+denied VBN TC
+, , O
+e.g. FW O
+, , O
+invalid JJ O
+credit NN O
+card NN O
+or CC O
+insufficient JJ O
+funds NNS O
+in IN O
+the DT O
+customer NN O
+'s POS O
+credit NN O
+card NN O
+account NN O
+, , O
+the DT O
+system NN C
+prompts VBZ S
+the DT O
+customer NN A
+to TO O
+enter VB O
+a DT O
+different JJ O
+credit NN O
+card NN O
+number NN O
+. . O
+EOS
+BOS
+The DT O
+customer NN A
+can MD O
+either RB O
+enter VB TC
+a DT O
+different JJ O
+credit NN O
+card NN O
+number NN O
+or CC O
+cancel VB TC
+the DT O
+order NN C
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+: : O
+EOS
+BOS
+process NN O
+delivery NN O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+Supplier NN A
+requests NNS TC
+next JJ O
+delivery NN O
+order NN C
+. . O
+EOS
+BOS
+2 CD O
+System NNP C
+retrieves VBZ S
+and CC O
+displays VBZ S
+delivery NN O
+order NN C
+. . O
+EOS
+BOS
+3 CD O
+Supplier NN A
+requests NNS TC
+inventory NN O
+check NN O
+on IN O
+items NNS C
+for IN O
+delivery NN O
+order NN C
+. . O
+EOS
+BOS
+4 CD O
+System NNP C
+determines VBZ S
+that IN O
+items NNS C
+are VBP O
+available JJ S
+in IN O
+inventory NN C
+to TO O
+satisfy VB S
+delivery NN O
+order NN C
+and CC O
+reserves NNS S
+items NNS C
+. . O
+EOS
+BOS
+5 CD O
+System NNP C
+displays VBZ S
+inventory NN O
+information NN C
+to TO O
+Supplier NNP A
+and CC O
+confirms VBZ S
+that IN O
+items NNS C
+are VBP O
+reserved VBN S
+. . O
+EOS
+BOS
+Alternative JJ O
+sequence NN O
+: : O
+EOS
+BOS
+Step VB O
+EOS
+BOS
+4 CD O
+: : O
+EOS
+BOS
+If IN O
+item NN C
+is VBZ TC
+out IN O
+of IN O
+stock NN O
+, , O
+system NN C
+displays VBZ S
+warning VBG O
+message NN O
+. . O
+EOS
+BOS
+Use NNP O
+case NN O
+name NN O
+: : O
+EOS
+BOS
+confirm VB O
+shipment NN O
+and CC O
+bill NN O
+custormer NN O
+Main NNP O
+sequence NN O
+: : O
+EOS
+BOS
+1 CD O
+Supplier NN A
+prepares VBZ TC
+shipment NN O
+manually RB O
+and CC O
+identifies VBZ TC
+that IN O
+delivery NN O
+order NN C
+is VBZ O
+ready JJ O
+to TO O
+ship VB S
+. . O
+EOS
+BOS
+2 CD O
+System NNP C
+retrieves VBZ S
+customer NN O
+account NN O
+information NN O
+, , O
+including VBG O
+the DT O
+invoice NN O
+and CC O
+customer NN O
+'s POS O
+credit NN O
+card NN O
+details NNS O
+. . O
+EOS
+BOS
+3 CD O
+System NN C
+updates NNS S
+inventory NN C
+to TO O
+confirm VB S
+purchase NN C
+. . O
+EOS
+BOS
+4 CD O
+System NN C
+charges NNS S
+customer NN O
+'s POS O
+credit NN O
+card NN O
+for IN O
+purchase NN C
+and CC O
+BOS
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+LEARNING VBG O
+PROCESS NN O
+TO TO O
+USE NNP O
+THE DT O
+SYSTEM NN O
+( CD O
+CITIZENS NNS O
+) VBP O
+Trigger NN O
+: : O
+EOS
+BOS
+First JJ O
+approach NN O
+to TO O
+the DT O
+system NN C
+by IN O
+the DT O
+citizen NN A
+. . O
+EOS
+BOS
+The DT O
+learning NN O
+process NN O
+can MD O
+occur VB O
+in IN O
+paral NN O
+- : O
+lel NN O
+with IN O
+the DT O
+use NN O
+of IN O
+the DT O
+system NN C
+. . O
+EOS
+BOS
+While IN O
+the DT O
+system NN C
+is VBZ O
+being VBG O
+executed VBN S
+, , O
+the DT O
+citizen NN A
+can MD O
+access VB TC
+online JJ O
+training NN O
+content NN O
+( CD O
+manuals NNS O
+, , O
+contextual JJ O
+help NN O
+and CC O
+interactive JJ O
+materials NNS O
+) NN O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+may MD O
+also RB O
+have VB O
+access NN TC
+to TO O
+printed VBN O
+training NN O
+material NN O
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+Internet NNP O
+connexion NN O
+( CD O
+mainly RB O
+at IN O
+the DT O
+smartphone NN O
+, , O
+although IN O
+computer NN O
+access NN O
+could MD O
+be VB O
+also RB O
+possible JJ O
+for IN O
+some DT O
+help NN O
+documents NNS O
+) VBP O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+be VB O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+, , O
+he PRP A
+will MD O
+have VB TC
+a DT O
+user NN O
+id NN O
++ CC O
+password NN O
+available JJ O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+offers VBZ S
+tutorials NNS O
+showing VBG O
+how WRB O
+to TO O
+use VB O
+each DT O
+function NN O
+The DT O
+system NN C
+provides VBZ S
+a DT O
+user NN O
+manual NN O
+and CC O
+online NN O
+help NN O
+in IN O
+each DT O
+screen NN O
+The DT O
+system NN C
+allows VBZ S
+remote JJ O
+technical JJ O
+support NN O
+( NN O
+phone NN O
+assistance NN O
+and/or CC O
+e SYM O
+- : O
+mail/instant JJ O
+messaging NN O
+) NN O
+. . O
+EOS
+BOS
+Post NN O
+conditions NNS O
+: : O
+EOS
+BOS
+This DT O
+is VBZ O
+a DT O
+continuous JJ O
+case NN O
+( IN O
+learning VBG O
+through IN O
+real JJ O
+use NN O
+) NN O
+. . O
+EOS
+BOS
+After IN O
+the DT O
+training NN O
+period NN O
+, , O
+the DT O
+citizen NN A
+has VBZ O
+received VBN TC
+information NN O
+, , O
+feedback NN O
+and CC O
+examples NNS O
+and CC O
+it PRP O
+�s POS O
+able JJ O
+to TO O
+perform VB O
+the DT O
+basic JJ O
+tasks NNS O
+of IN O
+the DT O
+system NN C
+( CD O
+plan NN O
+trips NNS O
+, , O
+book NN O
+a DT O
+parking NN O
+space NN O
+, , O
+locate VB O
+free JJ O
+parking NN O
+spots NNS O
+, , O
+receive VBP O
+information NN O
+, , O
+etc FW O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+has VBZ O
+received VBN TC
+a DT O
+username JJ O
+and CC O
+a DT O
+password NN O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+can MD O
+receive VB TC
+contextual JJ O
+help NN O
+whenever WRB O
+needed VBN O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+logs NNS TC
+in IN O
+at IN O
+the DT O
+SIMON NNP O
+platform NN C
+( CD O
+web NN O
+/ : O
+app NN O
+) NN O
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+At IN O
+the DT O
+home NN O
+page NN O
+, , O
+the DT O
+citizen NN A
+can MD O
+follow VB TC
+tutorials NNS O
+of IN O
+the DT O
+system NN C
+functionalities NNS O
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+accesses VBZ TC
+to TO O
+his/her VB O
+profile NN O
+. . O
+EOS
+BOS
+All DT O
+screens NNS C
+provide VBP S
+help NN O
+options NNS O
+, , O
+showing VBG O
+how WRB O
+to TO O
+activate VB O
+each DT O
+function NN O
+( CD O
+graphic JJ O
+format NN O
+) IN O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+performs VBZ TC
+trial NN O
+activities NNS O
+, , O
+while IN O
+receiving VBG O
+contextual JJ O
+help NN O
+when WRB O
+needed VBN O
+: : O
+EOS
+BOS
+o NN O
+Create VB O
+profile NN C
+Plan NN TC
+a DT O
+trip NN C
+using VBG O
+private JJ O
+vehicle NN A
+Plan NN TC
+a DT O
+trip NN C
+using VBG O
+public JJ O
+transport NN A
+Book VB TC
+a DT O
+parking NN O
+space NN C
+Locate VB TC
+free JJ O
+parking NN O
+spots NNS C
+in IN O
+public JJ O
+parking NN O
+spaces NNS C
+and CC O
+restricted JJ O
+areas NNS O
+Receive VB TC
+information NN C
+about IN O
+the DT O
+status NN C
+( RB O
+occupied VBN O
+, , O
+free JJ O
+) NN O
+of IN O
+the DT O
+private JJ O
+park NN O
+- : O
+ing NN O
+and CC O
+about IN O
+accessible JJ O
+public JJ O
+transport NN O
+o NN O
+How WRB O
+to TO O
+be VB O
+validated VBN TC
+in IN O
+the DT O
+system NN C
+for IN O
+parking NN O
+or CC O
+control NN O
+accesses NNS O
+. . O
+EOS
+BOS
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+attends VBZ TC
+to TO O
+a DT O
+training NN O
+course NN O
+based VBN O
+on IN O
+the DT O
+use NN O
+of IN O
+the DT O
+SIMON NNP O
+System NNP C
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+PLAN NN O
+TRIPS NNS O
+USING VBG O
+PUBLICTRANSPORT NN O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+user NN A
+wants VBZ TC
+to TO O
+reach VB O
+a DT O
+destination NN O
+using VBG O
+public JJ O
+transport NN A
+( CD O
+e.g. FW O
+urban JJ O
+bus NN O
+) NN O
+and CC O
+needs VBZ TC
+information NN C
+on IN O
+the DT O
+availability NN C
+of IN O
+accessible JJ O
+transport NN O
+, , O
+the DT O
+best JJS O
+route NN C
+and CC O
+the DT O
+schedule NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+uses VBZ TC
+the DT O
+mobile JJ O
+application NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+system NN C
+offers VBZ S
+comprehensive JJ O
+and CC O
+updated VBN S
+information NN C
+about IN O
+public JJ O
+transport NN A
+in IN O
+real JJ O
+time NN O
+: : O
+EOS
+BOS
+routes NNS C
+, , O
+stops VBZ C
+, , O
+pending VBG O
+time NN C
+until IN O
+arrival NN O
+, , O
+accessibility NN O
+issues NNS C
+, , O
+etc FW O
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+The DT O
+system NN C
+offers VBZ S
+information NN C
+about IN O
+the DT O
+accessible JJ S
+public JJ O
+transport NN A
+( NN O
+see VBP O
+also RB O
+CI_OZ JJ O
+) NN O
+. . O
+EOS
+BOS
+Using VBG O
+the DT O
+system NN C
+, , O
+the DT O
+citizen NN A
+has VBZ O
+been VBN O
+able JJ O
+to TO O
+: : O
+EOS
+BOS
+o NN O
+Identify VB TC
+the DT O
+best JJS O
+route NN C
+to TO O
+his PRP$ O
+destination NN O
+o NN O
+Know NNP TC
+the DT O
+time NN C
+needed VBN O
+for IN O
+thejourney NN O
+o NN O
+Reach VB TC
+a DT O
+destination NN O
+using VBG O
+public JJ O
+transport NN O
+o NN O
+Know NNP TC
+the DT O
+incidences NNS O
+at IN O
+a DT O
+route NN C
+or CC O
+stop VB C
+The DT O
+resulting VBG O
+route NN C
+should MD O
+take VB TC
+the DT O
+mobility NN O
+restrictions NNS O
+of IN O
+the DT O
+user NN A
+into IN O
+account NN C
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+Citizen NNP A
+starts VBZ TC
+the DT O
+app NN C
+installed VBN S
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+function NN O
+" '' O
+plan NN O
+trip NN O
+" '' O
+in IN O
+the DT O
+� CD O
+public JJ O
+transport NN O
+� NN O
+option NN O
+The DT O
+citizen NN A
+introduces VBZ TC
+the DT O
+destination NN O
+data NNS C
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+of IN O
+different JJ O
+transport NN A
+means VBZ O
+to TO O
+his PRP$ O
+destination NN C
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+transport NN O
+line NN C
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+The DT O
+display NN C
+shows VBZ S
+the DT O
+stops NNS C
+in IN O
+the DT O
+route NN C
+and CC O
+details NNS S
+the DT O
+pending JJ O
+time NN C
+until IN O
+the DT O
+arrival NN O
+to TO O
+the DT O
+nearest JJS O
+stop NN C
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+selects VBZ TC
+any DT O
+stop NN C
+, , O
+a DT O
+window NN C
+shows VBZ S
+the DT O
+pending VBG O
+time NN C
+until IN O
+the DT O
+arrival NN O
+at IN O
+this DT O
+point NN C
+EOS
+BOS
+9 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+can MD O
+set VB TC
+a DT O
+warning VBG O
+to TO O
+report VB O
+the DT O
+passing NN O
+of IN O
+a DT O
+specific JJ O
+transport NN O
+mean NN O
+in IN O
+the DT O
+area NN O
+at IN O
+a DT O
+certain JJ O
+time NN O
+. . O
+EOS
+BOS
+Alt NN O
+. . O
+EOS
+BOS
+Flows NNPS O
+: : O
+EOS
+BOS
+CI_OZ NNP O
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+RECEIVE VB O
+INFORMATION NNP O
+ABOUT NNP O
+ACCESSIBLE NNP O
+PUBLICTRANSPORT NNP O
+IN IN O
+REAL NNP O
+TIME NNP O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+receive VB O
+information NN C
+about IN O
+accessible JJ O
+public JJ O
+transport NN A
+in IN O
+real JJ O
+time NN O
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+system NN C
+offers VBZ S
+integrated VBN O
+information NN O
+about IN O
+accessibility NN O
+to TO O
+public JJ O
+transport NN A
+: : O
+EOS
+BOS
+accessible JJ O
+transport NN O
+, , O
+elevators NNS O
+, , O
+special JJ O
+services NNS O
+, , O
+etc FW O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+offers VBZ S
+direct JJ O
+data NNS O
+showing VBG O
+the DT O
+route NN C
+, , O
+features NNS C
+and CC O
+incidences NNS C
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+Using VBG O
+the DT O
+system NN C
+, , O
+the DT O
+user NN A
+has VBZ O
+received VBN TC
+information NN O
+related JJ O
+to TO O
+: : O
+EOS
+BOS
+- : O
+Know NNP TC
+the DT O
+accessible JJ O
+options NNS C
+of IN O
+public JJ O
+transport NN A
+in IN O
+real JJ O
+time NN O
+- : O
+Reach VB TC
+a DT O
+destination NN O
+using VBG O
+a DT O
+public JJ O
+transport NN A
+- : O
+Identify VB TC
+the DT O
+best JJS O
+line NN C
+and CC O
+stop VB C
+to TO O
+his PRP$ O
+destination NN C
+- : O
+Know NNP TC
+the DT O
+time NN C
+necessary JJ O
+for IN O
+the DT O
+journey NN O
+- : O
+Get VB TC
+informed VBN O
+about IN O
+the DT O
+incidences NNS C
+( NN O
+delays NNS O
+, , O
+accessibility NN O
+issues NNS O
+, , O
+... : O
+) NN O
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+starts VBZ TC
+the DT O
+app NN C
+installed VBN S
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+selects VBZ TC
+the DT O
+function NN O
+" '' O
+real JJ O
+time NN O
+information NN O
+" '' O
+in IN O
+the DT O
+� CD O
+public JJ O
+transport NN O
+� NN O
+option NN O
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+selects VBZ TC
+the DT O
+different JJ O
+options NNS O
+: : O
+EOS
+BOS
+3.1 CD O
+. . O
+EOS
+BOS
+Accessibility NN O
+services NNS C
+in IN O
+an DT O
+area NN C
+or CC O
+stop VB C
+. . O
+EOS
+BOS
+3.2 CD O
+. . O
+EOS
+BOS
+Accessible JJ S
+routes NNS C
+to TO O
+reach VB O
+a DT O
+destination NN C
+EOS
+BOS
+3.3 CD O
+. . O
+EOS
+BOS
+Schedule VB C
+of IN O
+accessible JJ O
+routes NNS C
+EOS
+BOS
+3.4 CD O
+. . O
+EOS
+BOS
+Elapsed VBN O
+time NN C
+of IN O
+a DT O
+route NN C
+EOS
+BOS
+3.5 CD O
+. . O
+EOS
+BOS
+Incidences NNPS C
+at IN O
+a DT O
+route NN C
+or CC O
+stop VB C
+EOS
+BOS
+4 CD O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+information NN C
+requested VBD O
+, , O
+including VBG O
+the DT O
+accessibility NN O
+ser SYM C
+vices NNS C
+and CC O
+issues NNS C
+. . O
+EOS
+BOS
+5 LS O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+is VBZ O
+able JJ O
+to TO O
+plan VB TC
+a DT O
+trip NN C
+using VBG O
+public JJ O
+transport NN A
+( NN O
+see VBP O
+CI_01 NN O
+) NN O
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+Directly RB O
+plan VBP O
+the DT O
+trip NN O
+( RB O
+CI_01 NN O
+) CD O
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+LOCATE VB O
+FREE NNP O
+PARKING NNP O
+SPOTS NNP O
+IN IN O
+PUBLIC NNP O
+PARKING NNP O
+SPACES NNPS O
+AND CC O
+RESTRICTED NNPS O
+AREAS NNP O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+has VBZ O
+arrived VBN TC
+near IN O
+his PRP$ O
+destination NN C
+and CC O
+wants VBZ TC
+to TO O
+park VB O
+in IN O
+the DT O
+area NN C
+The DT O
+citizen NN A
+starts VBZ TC
+to TO O
+use VB O
+the DT O
+mobile JJ O
+app NN C
+, , O
+the DT O
+action NN O
+is VBZ O
+supported VBN O
+by IN O
+integrated VBN O
+in IN O
+- : O
+formation NN O
+in IN O
+real-time JJ O
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+GPS NNS C
+activated VBD S
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+system NN C
+offers VBZ S
+comprehensive JJ O
+and CC O
+real-time JJ O
+updated VBN S
+data NNS C
+showing VBG O
+the DT O
+availa NN O
+- : O
+ble NN O
+open JJ O
+parking NN O
+places NNS C
+in IN O
+public JJ O
+and CC O
+restricted JJ O
+areas NNS O
+The DT O
+system NN C
+provides VBZ S
+real-time JJ O
+geo-location NN C
+Post-conditions NNS O
+: : O
+EOS
+BOS
+Using VBG TC
+the DT O
+system NN C
+parking NN C
+allows VBZ O
+keeping VBG O
+better JJR O
+tracking NN O
+of IN O
+parking NN O
+places NNS C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+has VBZ O
+been VBN O
+able JJ O
+to TO O
+: : O
+EOS
+BOS
+o NN O
+Find VB TC
+an DT O
+available JJ O
+parking NN O
+place NN C
+using VBG O
+the DT O
+app NN C
+o NN O
+Reach VB TC
+to TO O
+the DT O
+parking NN O
+space NN C
+using VBG O
+the DT O
+app NN C
+navigation NN O
+instructions NNS C
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+starts VBZ TC
+the DT O
+app NN C
+installed VBN O
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+function NN O
+" '' O
+search NN O
+available JJ O
+parking NN O
+spaces NNS C
+in IN O
+the DT O
+area NN C
+EOS
+BOS
+3 CD O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+available JJ S
+places NNS C
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+filters VBZ TC
+the DT O
+results NNS O
+by IN O
+selecting VBG O
+� CD O
+public JJ O
+parking NN O
+� CD O
+and/or CC O
+� CD O
+restricted JJ O
+areas NNS O
+� VBP O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+to TO O
+the DT O
+selected VBN O
+place NN C
+( CD O
+see VBP O
+CI_05 NN O
+) NN O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+accesses VBZ TC
+to TO O
+the DT O
+available JJ S
+place NN C
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+and CC O
+validates VBZ TC
+the DT O
+parking NN O
+( NN O
+see VBP O
+use NN O
+cases NNS O
+CI_06 NN O
+to TO O
+EOS
+BOS
+12 CD O
+) CD O
+EOS
+BOS
+8 CD O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+recognizes VBZ S
+that IN O
+the DT O
+area NN C
+is VBZ O
+busy JJ S
+and CC O
+no RB O
+longer RBR O
+appears VBZ O
+as IN O
+free JJ O
+for IN O
+the DT O
+next JJ O
+citizen NN A
+( NN O
+see VBP O
+use NN O
+cases NNS O
+CI_06 NN O
+to TO O
+EOS
+BOS
+12 CD O
+) CD O
+Special JJ O
+Requirements NNS O
+: : O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+returns NNS TC
+to TO O
+the DT O
+car NN O
+, , O
+the DT O
+system NN C
+can MD O
+show VB S
+how WRB O
+to TO O
+get VB O
+to TO O
+the DT O
+location NN O
+of IN O
+the DT O
+vehicle NN A
+. . O
+EOS
+BOS
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+IDENTIFY VB O
+THE DT O
+OPEN JJ O
+RESERVED VBN O
+SPACES NNS O
+AND CC O
+GET VBP O
+TO TO O
+THE DT O
+PLACE NN O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+is VBZ TC
+near IN O
+a DT O
+destination NN C
+and CC O
+wants VBZ TC
+to TO O
+park VB O
+at IN O
+the DT O
+area NN C
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+GPS NNS C
+activated VBD S
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN C
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+( VBP O
+if IN O
+there EX O
+are VBP TC
+free JJ O
+spaces NNS C
+) VBP O
+The DT O
+citizen NN A
+marks VBZ TC
+that IN O
+the DT O
+space NN C
+is VBZ O
+occupied VBN S
+( CD O
+maps NNS C
+update VBP S
+automatically RB O
+) RB O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+starts VBZ TC
+the DT O
+app NN C
+installed VBN O
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+function NN O
+" '' O
+search NN O
+existing VBG O
+reserved VBN O
+parking NN O
+spaces NNS C
+in IN O
+the DT O
+area NN O
+� NN O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+existing VBG O
+places NNS C
+EOS
+BOS
+4 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+filters VBZ TC
+the DT O
+results NNS C
+by IN O
+selecting VBG O
+� CD O
+public JJ O
+parking NN O
+� CD O
+and/or CC O
+� CD O
+restricted JJ O
+areas NNS O
+� VBP O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+to TO O
+the DT O
+selected VBN O
+place NN C
+( CD O
+CI_05 NN O
+) NN O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+drives VBZ TC
+to TO O
+the DT O
+selected VBN O
+area NN O
+, , O
+following VBG O
+the DT O
+indications NNS O
+( VBP O
+CI_05 NN O
+) NN O
+. . O
+EOS
+BOS
+7 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+and CC O
+validates VBZ TC
+the DT O
+parking NN C
+( NN O
+see VBP O
+use NN O
+cases NNS O
+CI_06 NN O
+to TO O
+EOS
+BOS
+12 CD O
+) CD O
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+If IN O
+the DT O
+user NN A
+can MD O
+see VB TC
+whether IN O
+the DT O
+parking NN O
+spaces NNS C
+are VBP O
+occupied VBN S
+or CC O
+free JJ S
+( NN O
+between IN O
+steps NNS O
+EOS
+BOS
+3 CD O
+and CC O
+EOS
+BOS
+4 CD O
+) NN O
+, , O
+then RB O
+the DT O
+use NN O
+case NN O
+would MD O
+be VB O
+: : O
+EOS
+BOS
+CI_O3 NN O
+Exceptions NNS O
+: : O
+EOS
+BOS
+This DT O
+use NN O
+case NN O
+is VBZ TC
+for IN O
+information NN O
+of IN O
+existing VBG O
+reserved JJ S
+spaces NNS C
+only RB O
+, , O
+does VBZ O
+not RB O
+guarantee VB O
+the DT O
+availability NN S
+of IN O
+the DT O
+parking NN O
+space NN C
+. . O
+EOS
+BOS
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+PLAN NN O
+TRIPS NNS O
+USING VBG O
+PRIVATE JJ O
+VEHICLE NN O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+reach VB O
+a DT O
+destination NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+uses VBZ TC
+the DT O
+mobile JJ O
+application NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) NN O
+that WDT O
+has VBZ O
+data NNS O
+about IN O
+direc NN O
+- : O
+tions NNS O
+, , O
+available JJ S
+parking NN O
+areas NNS C
+and CC O
+wizard NN O
+navigation NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+GPS NNS C
+activated VBD S
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+offers VBZ S
+a DT O
+integrated VBN O
+wizard NN O
+navigation NN C
+that WDT O
+tells VBZ O
+the DT O
+user NN A
+how WRB O
+to TO O
+get VB O
+to TO O
+the DT O
+target NN S
+area NN C
+with IN O
+online JJ S
+route NN C
+and CC O
+real-time JJ O
+geo-location JJ C
+The DT O
+system NN C
+offers VBZ S
+direct JJ O
+data NNS O
+showing VBG O
+the DT O
+available JJ O
+parking NN O
+places NNS C
+( VBP O
+SIMON NNP O
+BOOKS NNS O
+, , O
+see VBP O
+CI_O3 NN O
+, , O
+CI_O4 NN O
+and CC O
+CI_14 NN O
+) CD O
+The DT O
+system NN C
+provides VBZ S
+real-time JJ O
+geo-location NN C
+Post-conditions NNS O
+: : O
+EOS
+BOS
+The DT O
+system NN C
+offers VBZ S
+a DT O
+route NN C
+to TO O
+navigate VB S
+to TO O
+a DT O
+selected VBN O
+destination NN C
+. . O
+EOS
+BOS
+Additionally RB O
+avail NN O
+- : O
+ability NN O
+of IN O
+parking NN O
+spaces NNS C
+, , O
+booking NN C
+is VBZ O
+available JJ S
+when WRB O
+the DT O
+citizen NN A
+has VBZ O
+arrived VBN TC
+( RB O
+SIMON NNP O
+BOOKS NNS O
+, , O
+see VBP O
+CI_O3 NN O
+, , O
+CI_O4 NN O
+CI_14 NN O
+and CC O
+CI_15 NN O
+) NN O
+. . O
+EOS
+BOS
+Using VBG O
+the DT O
+system NN C
+, , O
+the DT O
+user NN A
+has VBZ O
+received VBN TC
+the DT O
+indications NNS C
+on IN O
+to TO O
+reach VB S
+to TO O
+a DT O
+destination NN C
+. . O
+EOS
+BOS
+After IN O
+the DT O
+use NN TC
+, , O
+the DT O
+citizen NN A
+can MD O
+rate VB TC
+the DT O
+service NN O
+using VBG O
+the DT O
+application NN C
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+Citizen NNP A
+starts VBZ TC
+the DT O
+app NN C
+installed VBN O
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+. . O
+EOS
+BOS
+2 CD O
+The DT O
+citizen NN A
+selects VBZ TC
+to TO O
+the DT O
+function NN O
+" '' O
+wizard NN O
+navigation NN O
+" '' O
+. . O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+introduces VBZ TC
+the DT O
+destination NN O
+data NNS O
+using VBG O
+different JJ O
+input NN O
+possibilities NNS O
+. . O
+EOS
+BOS
+4 LS O
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+and CC O
+the DT O
+available JJ S
+parking NN O
+spaces NNS C
+in IN O
+the DT O
+nearby JJ O
+( NN O
+see VB O
+CI_O3 NN O
+) NN O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+GPS NN C
+with IN O
+speech NN O
+output NN O
+, , O
+the DT O
+system NN C
+tells VBZ S
+him PRP O
+how WRB O
+to TO O
+ac SYM S
+cess NN O
+to TO O
+destination NN C
+. . O
+EOS
+BOS
+. . O
+EOS
+BOS
+U NNP O
+" '' O
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+Citizen NNP A
+accesses VBZ TC
+the DT O
+app NN C
+installed VBN O
+in IN O
+his PRP$ O
+mobile JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+accesses VBZ TC
+to TO O
+the DT O
+function NN O
+" '' O
+wizard NN O
+navigation NN O
+" '' O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+introduces VBZ TC
+the DT O
+destination NN C
+data NNS C
+using VBG O
+different JJ O
+input NN O
+possibilities NNS O
+. . O
+EOS
+BOS
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+speech NN O
+output NN C
+, , O
+the DT O
+system NN C
+tells VBZ S
+him PRP O
+how WRB O
+to TO O
+access VB O
+the DT O
+destination NN C
+. . O
+EOS
+BOS
+6 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+looks VBZ TC
+for IN O
+parking NN O
+availability NN C
+( CD O
+SIMON NNP O
+BOOKS NNS O
+, , O
+see VBP O
+CI_O3 NN O
+, , O
+CI_O4 NN O
+and CC O
+CI_14 NN O
+) CD O
+: : O
+EOS
+BOS
+o NN O
+The DT O
+citizen NN A
+accesses VBZ TC
+to TO O
+the DT O
+function NN O
+" '' O
+look NN O
+for IN O
+available JJ S
+parking NN O
+spaces NNS C
+in IN O
+the DT O
+area NN O
+. . O
+EOS
+BOS
+o NN O
+The DT O
+display NN C
+shows VBZ S
+the DT O
+available JJ S
+spaces NNS C
+. . O
+EOS
+BOS
+o NN O
+The DT O
+display NN C
+shows VBZ S
+the DT O
+route NN C
+to TO O
+the DT O
+selected VBN S
+place NN C
+o NN O
+The DT O
+citizen NN A
+selects VBZ TC
+the DT O
+GPS NN C
+with IN O
+speech NN O
+output NN O
+, , O
+the DT O
+system NN C
+tells VBZ S
+him PRP O
+how WRB O
+to TO O
+access VB S
+the DT O
+destination NN C
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+CITIZEN NN O
+IDENTIFICATION NN O
+AT IN O
+A DT O
+PARKING NNP O
+SPACE NNP O
+USING NNP O
+SMART NNP O
+PHONE NNP O
+AND CC O
+PARK NNP O
+METER NN O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+at IN O
+a DT O
+parking NN O
+space NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+validate VB O
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+has VBZ O
+installed VBN TC
+the DT O
+SIMON NNP O
+app NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+in IN O
+his PRP$ O
+smart JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+is VBZ O
+able JJ O
+to TO O
+communicate VB S
+with IN O
+the DT O
+central NN O
+database NN C
+and CC O
+offer NN S
+updated VBN O
+response NN O
+in IN O
+real JJ O
+time NN O
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+the DT O
+system NN C
+stores NNS S
+the DT O
+information NN C
+( CD O
+0P_06 NN O
+) NN O
+. . O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+a DT O
+ticket NN C
+is VBZ O
+printed VBN S
+by IN O
+the DT O
+park NN O
+meter NN C
+to TO O
+be VB O
+left VBN TC
+in IN O
+the DT O
+vehicle NN A
+( CD O
+CI_13 NN O
+) NN O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+approaches VBZ TC
+the DT O
+park NN O
+meter NN C
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+uses VBZ TC
+the DT O
+park NN O
+meter NN C
+to TO O
+: : O
+EOS
+BOS
+o NN O
+Request NN TC
+the DT O
+parking NN O
+space NN C
+. . O
+EOS
+BOS
+o NN O
+Identify VB TC
+himself PRP O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+sends VBZ S
+the DT O
+challenge NN C
+( CD O
+e.g. FW O
+: : O
+EOS
+BOS
+a DT O
+word NN O
+or CC O
+a DT O
+code NN O
+) CD O
+to TO O
+the DT O
+smartphone NN C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+enters VBZ TC
+the DT O
+answer NN O
+to TO O
+the DT O
+challenge NN C
+in IN O
+the DT O
+park NN O
+meter NN C
+and CC O
+validates VBZ TC
+the DT O
+operation NN O
+. . O
+EOS
+BOS
+5 CD O
+. . O
+EOS
+BOS
+The DT O
+park NN O
+meter NN C
+provides VBZ O
+the DT O
+parking NN O
+ticket NN C
+to TO O
+the DT O
+citizen NN A
+( CD O
+CI_13 NN O
+) NN O
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+Other JJ O
+means NNS O
+of IN O
+identification NN O
+: : O
+EOS
+BOS
+o NN O
+Using VBG TC
+a DT O
+NFC NN O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_O7 NN O
+) CD O
+o NN O
+Using VBG TC
+a DT O
+smart JJ O
+phone NN C
+without IN O
+interacting VBG S
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_08 NN O
+) CD O
+o NN O
+Identification NN TC
+of IN O
+the DT O
+position NN C
+of IN O
+the DT O
+citizen NN A
+by IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_09 NN O
+and CC O
+EOS
+BOS
+10 CD O
+) NN O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_11 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+a DT O
+smart JJ O
+phone NN C
+( CD O
+CI_12 NN O
+) NN O
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+CITIZEN NN O
+IDENTIFICATION NN O
+AT IN O
+A DT O
+PARKING NNP O
+SPACE NNP O
+USING NNP O
+NFC NNP O
+SMART NNP O
+PHONE NNP O
+AND CC O
+PARK NNP O
+METER NNP O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+validate VB O
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+NFC NN O
+technology NN C
+available JJ S
+and CC O
+activated VBN S
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+has VBZ O
+installed VBN TC
+the DT O
+SIMON NNP O
+app NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+in IN O
+his PRP$ O
+smart JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+is VBZ O
+able JJ O
+to TO O
+communicate VB S
+with IN O
+the DT O
+central NN O
+database NN C
+and CC O
+offer NN S
+updated VBN O
+response NN O
+in IN O
+real JJ O
+time NN O
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+the DT O
+system NN C
+stores NNS S
+the DT O
+information NN C
+( CD O
+0P_06 NN O
+) NN O
+. . O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+a DT O
+ticket NN C
+is VBZ O
+printed VBN S
+by IN O
+the DT O
+park NN O
+meter NN C
+to TO O
+be VB O
+left VBN TC
+in IN O
+the DT O
+vehicle NN O
+( CD O
+CI_13 NN O
+) NN O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+approaches VBZ TC
+the DT O
+park NN O
+meter NN C
+EOS
+BOS
+2 CD O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+places VBZ TC
+the DT O
+phone NN C
+near IN O
+the DT O
+park NN O
+meter NN C
+EOS
+BOS
+3 CD O
+. . O
+EOS
+BOS
+The DT O
+park NN O
+meter NN C
+validates VBZ S
+the DT O
+operation NN C
+. . O
+EOS
+BOS
+4 LS O
+. . O
+EOS
+BOS
+The DT O
+park NN O
+meter NN C
+provides VBZ S
+the DT O
+parking NN O
+ticket NN C
+to TO O
+the DT O
+citizen NN A
+( CD O
+CI_13 NN O
+) NN O
+Alternative JJ O
+Flows NNS O
+: : O
+EOS
+BOS
+Other JJ O
+means NNS O
+of IN O
+identification NN O
+: : O
+EOS
+BOS
+o NN O
+Using VBG TC
+a DT O
+common JJ O
+smart JJ O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_06 NN O
+) CD O
+o NN O
+Using VBG TC
+a DT O
+smart JJ O
+phone NN C
+without IN O
+interacting VBG S
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_08 NN O
+) CD O
+o NN O
+Identification NN TC
+of IN O
+the DT O
+position NN C
+of IN O
+the DT O
+citizen NN A
+by IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_09 NN O
+and CC O
+EOS
+BOS
+13 CD O
+) NN O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_11 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+a DT O
+smart JJ O
+phone NN C
+( CD O
+CI_12 NN O
+) NN O
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+CITIZEN NN O
+IDENTIFICATION NN O
+AT IN O
+A DT O
+PARKING NNP O
+SPACE NNP O
+USING NNP O
+ONLY NNP O
+SMART NNP O
+PHONE NNP O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+at IN O
+reserved JJ S
+parking NN O
+space NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+validate VB O
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+has VBZ O
+installed VBN TC
+the DT O
+SIMON NNP O
+app NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+in IN O
+his PRP$ O
+smart JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+is VBZ O
+able JJ O
+to TO O
+communicate VB S
+with IN O
+the DT O
+central NN O
+database NN C
+and CC O
+offer NN S
+updated VBN O
+response NN O
+in IN O
+real JJ O
+time NN O
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+has VBZ O
+validated VBN TC
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+receives VBZ TC
+an DT O
+electronic JJ O
+receipt NN C
+in IN O
+his PRP$ O
+smart JJ O
+phone NN C
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+the DT O
+system NN C
+stores NNS S
+the DT O
+information NN C
+( CD O
+0P_06 NN O
+) NN O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+1 LS O
+. . O
+EOS
+BOS
+The DT O
+user NN A
+requests NNS TC
+the DT O
+parking NN O
+space NN C
+by IN O
+using VBG TC
+the DT O
+mobile JJ O
+phone NN C
+EOS
+BOS
+2 LS O
+. . O
+EOS
+BOS
+The DT O
+system NN C
+sends VBZ S
+the DT O
+challenge NN C
+( CD O
+e.g. FW O
+: : O
+EOS
+BOS
+a DT O
+word NN O
+or CC O
+a DT O
+code NN O
+) NN O
+EOS
+BOS
+3 LS O
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+enters VBZ TC
+the DT O
+answer NN O
+to TO O
+the DT O
+challenge NN O
+in IN O
+EOS

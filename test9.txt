@@ -1,0 +1,417 @@
+BOS
+o NN O
+Using VBG O
+a DT O
+common JJ O
+smart JJ O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_06 NN O
+) NN O
+o NN O
+Using VBG TC
+a DT O
+NFC NN O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_O7 NN O
+) CD O
+o NN O
+Using VBG TC
+a DT O
+smart JJ O
+phone NN C
+without IN O
+interacting VBG O
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_08 NN O
+) CD O
+o NN O
+Identification NN TC
+of IN O
+the DT O
+position NN C
+and CC O
+entering VBG O
+the DT O
+plate NN C
+( CD O
+CI_10 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_11 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+a DT O
+smart JJ O
+phone NN C
+( CD O
+CI_12 NN O
+) NN O
+Use NNP O
+Case NNP O
+Name VB O
+: : O
+EOS
+BOS
+CITIZEN NN O
+IDENTIFICATION NN O
+AT IN O
+A DT O
+PARKING NN O
+SPACE NN O
+SHARING VBG O
+THE DT O
+POSITION NN O
+WITH IN O
+THE DT O
+SMART JJ O
+PHONE NN O
+AND CC O
+ENTERING VBG O
+THE DT O
+PLATE NN O
+Trigger NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+at IN O
+reserved JJ O
+parking NN O
+space NN C
+. . O
+
+
+The DT O
+citizen NN A
+wants VBZ TC
+to TO O
+validate VB O
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+Preconditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+must MD O
+have VB TC
+an DT O
+Android NN O
+smart JJ O
+phone NN C
+with IN O
+: : O
+EOS
+BOS
+o NN O
+GPS NNS C
+activated VBD S
+o NN O
+Internet NN C
+access NN S
+( CD O
+3G NN O
+, , O
+WiFi NN O
+) CD O
+The DT O
+citizen NN A
+has VBZ O
+installed VBN TC
+the DT O
+SIMON NNP O
+app NN C
+( CD O
+SIMON NNP O
+LEADS VBZ O
+) CD O
+in IN O
+his PRP$ O
+smart JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+is VBZ O
+registered VBN TC
+in IN O
+the DT O
+system NN C
+and CC O
+has VBZ O
+logged VBN TC
+in IN O
+at IN O
+the DT O
+mobile JJ O
+app NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+is VBZ O
+able JJ O
+to TO O
+communicate VB S
+with IN O
+the DT O
+central NN O
+database NN C
+and CC O
+offer NN S
+updated VBN O
+response NN O
+in IN O
+real JJ O
+time NN O
+. . O
+EOS
+BOS
+Post-conditions NNS O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+has VBZ O
+validated VBN TC
+the DT O
+parking NN C
+. . O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+the DT O
+system NN C
+stores NNS S
+the DT O
+information NN C
+( CD O
+0P_06 NN O
+) NN O
+. . O
+EOS
+BOS
+When WRB O
+the DT O
+citizen NN A
+is VBZ O
+validated VBN S
+, , O
+he PRP A
+receives VBZ TC
+an DT O
+electronic JJ O
+receipt NN C
+in IN O
+his PRP$ O
+smart-phone NN C
+, , O
+see VBP O
+CI_08 NN O
+. . O
+EOS
+BOS
+Normal JJ O
+Flow NN O
+: : O
+EOS
+BOS
+The DT O
+citizen NN A
+parks NNS TC
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+requests NNS TC
+the DT O
+parking NN O
+space NN C
+by IN O
+using VBG O
+the DT O
+mobile JJ O
+phone NN C
+. . O
+EOS
+BOS
+The DT O
+system NN C
+captures VBZ S
+the DT O
+position NN C
+of IN O
+the DT O
+citizen NN A
+. . O
+EOS
+BOS
+The DT O
+citizen NN A
+enters VBZ TC
+the DT O
+plate NN O
+number NN C
+through IN O
+the DT O
+app NN C
+The DT O
+systems NNS C
+send VBP S
+an DT O
+electronic JJ O
+receipt NN C
+of IN O
+the DT O
+operation NN C
+to TO O
+citizen NN O
+�s POS O
+smart JJ O
+phone NN C
+. . O
+EOS
+BOS
+Alternative JJ O
+Other JJ O
+means NNS O
+of IN O
+identification NN O
+: : O
+EOS
+BOS
+Flows NNS O
+: : O
+EOS
+BOS
+o NN O
+Using VBG TC
+a DT O
+common JJ O
+smart JJ O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_06 NN O
+) NN O
+o NN O
+Using VBG TC
+a DT O
+NFC NN O
+phone NN C
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_O7 NN O
+) CD O
+o NN O
+Using VBG TC
+a DT O
+smart JJ O
+phone NN C
+without IN O
+interacting VBG S
+with IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_08 NN O
+) CD O
+o NN O
+Identification NN TC
+of IN O
+the DT O
+position NN O
+of IN O
+the DT O
+citizen NN A
+by IN O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_09 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+the DT O
+park NN O
+meter NN C
+( CD O
+CI_11 NN O
+) CD O
+o NN O
+Identification NN TC
+using VBG O
+a DT O
+RFID NN O
+EU NNP O
+badge NN C
+and CC O
+a DT O
+smart JJ O
+phone NN C
+( CD O
+CI_12 NN O
+) NN O
+EOS
